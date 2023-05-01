@@ -1,0 +1,1 @@
+To count the number of characters in the file, you read the entire contents of the file into a string called text, and then use the len() function to count the number of characters in that string.
