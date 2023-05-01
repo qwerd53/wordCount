@@ -1,10 +1,10 @@
-filename1 = 'D:\python\mycode\wordCount\-c input.txt'
+filename1 = '-c input.txt'
 # Counting characters
 with open(filename1, 'r',encoding='utf-8') as f:
     text = f.read()
     num_chars = len(text)
 print(f'The number of characters in the file is: {num_chars}')
-filename2 = 'D:\python\mycode\wordCount\-w input.txt'
+filename2 = '-w input.txt'
 # Counting words
 with open(filename2, 'r',encoding='utf-8') as f:
     text = f.read()
